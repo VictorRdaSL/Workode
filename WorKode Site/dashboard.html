@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workode - Perfil da Empresa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/faviconwk.png">
+</head>
+<body>
+
+    <header class="header">
+		<a href="home.html"><img src="assets/header-logo-pi.png" class="header-logo-pi" /></a>
+		<div class="header-menu-nav">
+            <a href="vagas.html">Vagas</a>
+            <a href="#codigo-empresa">Empresa</a>
+            <a href="#codigo-sobre">Sobre</a>
+        </div>
+	</header>
+
+    <main class="dashboard-container">
+        
+        <aside class="sidebar-profile">
+            <h2>Perfil da Empresa</h2>
+            
+            <div class="profile-avatar-container">
+                <div class="avatar-bg">
+                    <span class="logo-w">W</span><span class="logo-k">K</span>
+                </div>
+                <button class="btn-change-photo"><i class="fa-solid fa-camera"></i></button>
+            </div>
+
+            <form class="profile-form">
+                <div class="profile-input-group">
+                    <label>Empresa</label>
+                    <div class="input-with-icon">
+                        <input type="text" value="Workode">
+                        <i class="fa-solid fa-pen icon-edit"></i>
+                    </div>
+                </div>
+
+                <div class="profile-input-group">
+                    <label>Sobre</label>
+                    <div class="input-with-icon">
+                        <textarea rows="3">Buscamos ajudar você a entrar no mercado de trabalho de forma ágil e eficaz, sem perder tempo.</textarea>
+                        <i class="fa-solid fa-pen icon-edit"></i>
+                    </div>
+                </div>
+
+                <div class="profile-input-group">
+                    <label>E-mail</label>
+                    <div class="input-with-icon">
+                        <input type="email" value="vagas@workode.com">
+                        <i class="fa-solid fa-pen icon-edit"></i>
+                    </div>
+                </div>
+
+                <div class="profile-input-group">
+                    <div class="input-with-icon">
+                        <input type="password" value="••••••••••••••••••••">
+                        <i class="fa-solid fa-eye-slash icon-edit"></i>
+                    </div>
+                </div>
+
+                <div class="profile-input-group">
+                    <label>Ajuda</label>
+                    <div class="input-with-icon menu-item">
+                        <input type="text" value="Termo de uso e Privacidade" readonly>
+                        <i class="fa-regular fa-clipboard icon-side"></i>
+                    </div>
+                    <div class="input-with-icon menu-item" style="margin-top: 8px;">
+                        <input type="text" value="FAQ" readonly>
+                        <i class="fa-regular fa-circle-question icon-side"></i>
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <button type="button" class="btn-delete-account">Excluir conta</button>
+                    <a href="home.html" style="text-decoration: none;">
+                        <button type="button" class="btn-logout">Sair <i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+                    </a>
+                </div>
+            </form>
+        </aside>
+
+        <section class="vagas-grid">
+            
+            <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                </div>
+                <h3>CRIE UMA NOVA VAGA</h3>
+                <div class="vaga-actions">
+                    <a href="formulario-vaga.html" class="btn-edit-vaga">Criar Vaga</a>
+                </div>
+            </div>
+
+                        <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                    <span>Empresa 1</span>
+                </div>
+                <h3>Dev. Front-end Jr</h3>
+                
+                <div class="vaga-details">
+                    <div><i class="fa-solid fa-location-dot"></i> São Paulo</div>
+                    <div><i class="fa-solid fa-laptop"></i> Híbrido</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Junior</div>
+                    <div><i class="fa-solid fa-wheelchair-move"></i> Também p/ PcD</div>
+                </div>
+
+                <div class="vaga-status">
+                    <span>Status</span>
+                    <span class="badge-status">Em andamento</span>
+                </div>
+
+                <div class="vaga-actions">
+                    <button class="btn-report">Emitir relatório da vaga</button>
+                    <button class="btn-edit-vaga">Editar Vaga</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                    <span>Empresa 3</span>
+                </div>
+                <h3>Designer UX/UI para Jogos</h3>
+                <div class="vaga-details">
+                    <div><i class="fa-solid fa-location-dot"></i> São Paulo</div>
+                    <div><i class="fa-solid fa-laptop"></i> Remoto</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Junior</div>
+                    <div><i class="fa-solid fa-wheelchair-move"></i> Também p/ PcD</div>
+                </div>
+                <div class="vaga-status">
+                    <span>Status</span>
+                    <span class="badge-status">Em andamento</span>
+                </div>
+                <div class="vaga-actions">
+                    <button class="btn-report">Emitir relatório da vaga</button>
+                    <button class="btn-edit-vaga">Editar Vaga</button>
+                </div>
+            </div>
+
+            <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                    <span>Empresa 4</span>
+                </div>
+                <h3>Analista de Redes</h3>
+                <div class="vaga-details">
+                    <div><i class="fa-solid fa-location-dot"></i> Rio de Janeiro</div>
+                    <div><i class="fa-solid fa-building"></i> Presencial</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Trainee</div>
+                    <div>&nbsp;</div> </div>
+                <div class="vaga-status">
+                    <span>Status</span>
+                    <span class="badge-status">Em andamento</span>
+                </div>
+                <div class="vaga-actions">
+                    <button class="btn-report">Emitir relatório da vaga</button>
+                    <button class="btn-edit-vaga">Editar Vaga</button>
+                </div>
+            </div>
+
+            <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                    <span>Empresa 5</span>
+                </div>
+                <h3>Software Developer Junior</h3>
+                <div class="vaga-details">
+                    <div><i class="fa-solid fa-location-dot"></i> Santo André</div>
+                    <div><i class="fa-solid fa-laptop"></i> Híbrido</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Junior</div>
+                    <div><i class="fa-solid fa-wheelchair-move"></i> Também p/ PcD</div>
+                </div>
+                <div class="vaga-status">
+                    <span>Status</span>
+                    <span class="badge-status">Em andamento</span>
+                </div>
+                <div class="vaga-actions">
+                    <button class="btn-report">Emitir relatório da vaga</button>
+                    <button class="btn-edit-vaga">Editar Vaga</button>
+                </div>
+            </div>
+
+            <div class="vaga-card">
+                <div class="vaga-header">
+                    <div class="vaga-company-badge"></div>
+                    <span>Empresa 5</span>
+                </div>
+                <h3>Analista de Dados Junior</h3>
+                <div class="vaga-details">
+                    <div><i class="fa-solid fa-location-dot"></i> Belo Horizonte</div>
+                    <div><i class="fa-solid fa-laptop"></i> Remoto</div>
+                    <div><i class="fa-solid fa-briefcase"></i> Junior</div>
+                    <div>&nbsp;</div>
+                </div>
+                <div class="vaga-status">
+                    <span>Status</span>
+                    <span class="badge-status">Em andamento</span>
+                </div>
+                <div class="vaga-actions">
+                    <button class="btn-report">Emitir relatório da vaga</button>
+                    <button class="btn-edit-vaga">Editar Vaga</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p><strong>Workode</strong> ©2026.</p>
+        <p>Todos os direitos reservados.</p>
+        <p>Desenvolvido por Workode.</p>
+    </footer>
+
+</body>
+</html>

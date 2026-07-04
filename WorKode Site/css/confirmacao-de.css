@@ -1,0 +1,452 @@
+body {
+	container: body / inline-size;
+	position: relative;
+	min-height: 100%;
+	font-family: 'Inter';
+	line-height: normal;
+	letter-spacing: 0px;
+	background-color: #3c096c;
+	overflow: auto;
+}
+
+.text-a {
+	text-align: center;
+}
+
+.card {
+	position: absolute; top: 183px; right: 101px; 
+	box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+	width: calc(100% - 101px);
+	max-width: 414px;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	font-size: 13px;
+	background-color: #fff;
+	padding: 11px 36px 10px 36px;
+	border-radius: 15px;
+}
+
+.card-text {
+	color: #000;
+	font-weight: 600;
+}
+
+.card-input {
+	margin-left: 1px; margin-top: 2px;
+	color: #aeaeae;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 0 18px;
+	border: 1px solid #aeaeae;
+	border-radius: 8px;
+}
+
+.card-graphic {
+	position: absolute; z-index: 1; top: 489px; left: 129px; 
+	width: 9px; height: 9px;
+}
+
+.input-group {
+	position: relative;
+	margin-left: 1px; margin-top: 2px;
+	min-height: 47px;
+	flex-shrink: 0;
+	text-align: left;
+}
+
+.input-group-text {
+	position: absolute; top: 28px; left: 89px; 
+	color: #000;
+	font-family: 'Inria Serif';
+	font-weight: 700;
+}
+
+.input-group-seu-nome-completo {
+	position: absolute; top: 0; left: 0; 
+	width: calc(100% - 32px);
+	max-width: 341px;
+	color: #aeaeae;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 16px 25px 13px 25px;
+	border: 1px solid #aeaeae;
+	border-radius: 8px;
+}
+
+.card-text2 {
+	margin-left: 1px; margin-right: 1px; margin-top: 10px;
+}
+
+.card-input1 {
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+
+.card-text3 {
+	margin-top: 10px;
+}
+
+.btn-white {
+	margin-right: 1px; margin-top: 2px;
+	display: flex;
+	gap: 11px;
+	color: #000;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0px;
+	text-align: unset;
+	background-color: #fff;
+	padding: 1px 78px 0 78px;
+	border: 1px solid #3c096c;
+	border-radius: 8px;
+}
+
+.btn-white-icon {
+	margin-bottom: -1px;
+	width: 0; height: 45px;
+	flex-shrink: 0;
+	border-left: 1px solid #3c096c;
+}
+
+.btn-white-label {
+	margin-top: 15px;
+	text-align: left;
+}
+
+.card-text4 {
+	margin-top: 9px;
+}
+
+.card-input-http1 {
+	font-weight: 600;
+	padding-top: 13px;
+	padding-bottom: 16px;
+}
+
+.card-link-obtenha {
+	color: #3c096c;
+	text-decoration: underline;
+}
+
+.card-text-git-hub {
+	margin-left: 1px; margin-right: 1px; margin-top: 10px;
+}
+
+.card-input-http2 {
+	margin-left: 0; margin-right: 1px;
+	font-weight: 600;
+	padding-top: 13px;
+	padding-bottom: 16px;
+}
+
+.card-text5 {
+	margin-top: 9px;
+}
+
+.card-btn-anexar-seu {
+	margin-right: 1px; margin-top: 2px;
+	display: flex;
+	justify-content: center;
+	color: #3c096c;
+	text-align: center;
+	background-color: #ffecd1;
+	padding: 15px 10px 14px 10px;
+	border: 1px solid #a393bf;
+	border-radius: 8px;
+}
+
+.card-text-pretensao {
+	margin: 9px 1px 0 1px;
+	color: #000;
+}
+
+.card-input-r {
+	margin-top: 0;
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 14px;
+	border: 1px solid #000;
+}
+
+.card-btn-botao {
+	margin-left: 1px; margin-top: 23px;
+	display: flex;
+	justify-content: center;
+	color: #ffecd1;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #ff4000;
+	padding: 16px 8px 15px 7px;
+	border-radius: 15px;
+}
+
+.card-text-bottom {
+	margin: 1px 5px 0 5px;
+	text-align: center;
+}
+
+.card-descricao-da-vaga {
+	position: absolute; z-index: 2; top: 183px; left: 93px; 
+	box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+	width: calc(100% - 93px);
+	max-width: 758px;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	color: #000;
+	font-size: 10px;
+	font-weight: 400;
+	background-color: #f6f6f6;
+	padding: 9px 26px 7px 26px;
+	border-radius: 15px;
+}
+
+.card-descricao-da-vaga-title {
+	--min-font-size: 25; --max-font-size: 40; font-size: var(--interpolate);
+	font-weight: 500;
+}
+
+.card-descricao-da-vaga-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 3px;
+	align-self: start;
+	color: #6b6b6b;
+	background-color: #fff;
+	padding: 3px 2px 1px 4px;
+	border: 1px solid #36454f;
+	border-radius: 5px;
+}
+
+.card-descricao-da-vaga-briefcase {
+	margin-top: 2px;
+	width: 10px;
+	flex-shrink: 0;
+	aspect-ratio: 1 / 1;
+}
+
+.card-descricao-da-vaga-text-remota {
+	margin-left: 3px; margin-top: 1px;
+	text-align: left;
+}
+
+.card-descricao-da-vaga-line {
+	width: 0; height: 14px;
+	flex-shrink: 0;
+	border-left: 1px solid #6b6b6b;
+}
+
+.card-descricao-da-vaga-text-right {
+	margin-left: 1px; margin-top: 1px;
+	font-family: 'Inria Serif';
+	text-align: left;
+}
+
+.card-descricao-da-vaga-text1 {
+	margin-right: 13px; margin-top: 6px;
+}
+
+.card-descricao-da-vaga-text2 {
+	margin-right: 13px; margin-top: 1px;
+}
+
+.card-descricao-da-vaga-text3 {
+	margin: 4px 3px 0 3px;
+}
+
+.card-descricao-da-vaga-text4 {
+	margin: 3px 3px 0 3px;
+}
+
+.card-descricao-da-vaga-text6 {
+	margin-top: 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0 0 0 1px;
+}
+
+.header-logo-pi {
+    height: 48px;
+    object-fit: contain;
+}
+
+.header-menu-nav {
+    display: flex;
+    gap: 35px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.header-text {
+	margin-left: 43px;
+}
+
+.header-text-empresa {
+	margin-left: 11px;
+}
+
+.header-perfil-nav {
+	margin-left: 633px; margin-top: 22px;
+	width: 56px;
+	flex-shrink: 0;
+	border: 1px solid #3c096c;
+	border-radius: 50%;
+}
+
+.footer {
+	position: absolute; z-index: 2; top: 961px; left: 50%; 
+	translate: -50% 0;
+	width: max-content;
+	display: flex;
+	align-items: flex-start;
+	gap: 126px;
+	color: #ffecd1;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.footer-text-left {
+	font-weight: 600;
+	text-align: center;
+}
+
+.col {
+	position: absolute; z-index: 3; top: 0; left: 0; right: 0; 
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+	text-align: center;
+	background-color: rgba(77, 77, 77, 0.35);
+	padding: 293px 24px;
+}
+
+.card-confirmacao {
+	width: 100%;
+	max-width: 808px;
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	background-color: #fff;
+	padding: 33px 20px 27px 20px;
+	border-radius: 15px;
+}
+
+.card-confirmacao-graphic {
+	width: 78px; height: 78px;
+	flex-shrink: 0;
+	align-self: center;
+}
+
+.card-confirmacao-subtitle {
+	color: #36454f;
+	--min-font-size: 20; --max-font-size: 32; font-size: var(--interpolate);
+}
+
+.card-confirmacao-text-voce-se-inscreveu {
+	margin-top: 25px;
+	color: #36454f;
+	font-size: 15px;
+}
+
+.card-confirmacao-text-compartilhe {
+	margin-top: 40px;
+	color: #36454f;
+	--min-font-size: 16; --max-font-size: 20; font-size: var(--interpolate);
+}
+
+.card-confirmacao-link {
+	box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+	margin-top: 1px;
+	width: 100%;
+	max-width: 396px;
+	align-self: center;
+	color: #000;
+	font-size: 14px;
+	background-color: #a393bf;
+	padding: 6px 9px 8px 9px;
+	border-radius: 8px;
+}
+
+.card-confirmacao-btn-bottom {
+	margin-top: 43px;
+	width: 134px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	color: #fff;
+	font-size: 20px;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #3c096c;
+	padding: 10px 8px;
+	border-radius: 8px;
+}
+
+
+
+/* container queries (flex rows) */
+
+@container body (width < 1301px) {
+	.header {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+		padding: 9px 11px;
+	}
+	.header > * {
+		margin-left: unset !important; margin-top: unset !important;
+		text-align: center;
+	}
+	.header > .header-menu-nav {
+		width: 100%;
+		max-width: 374px;
+	}
+	.header > .header-perfil-nav {
+		width: 100%;
+		max-width: 56px;
+	}
+}
+
+@container header (width < 373px) {
+	.header-menu-nav {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.header > * {
+		margin-left: 0; margin-right: 0;
+	}
+	.header-menu-nav > * {
+		margin-left: unset !important; margin-top: unset !important;
+		text-align: center;
+	}
+}
+
+@container body (width < 954px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.footer > * {
+		text-align: center;
+	}
+}

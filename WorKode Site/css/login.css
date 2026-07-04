@@ -1,0 +1,251 @@
+body {
+	container: body / inline-size;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 58px;
+	font-family: 'Inter';
+	line-height: normal;
+	letter-spacing: 0px;
+	background-color: #ffecd1;
+	padding-bottom: 32px;
+	overflow: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.header-logo-pi {
+    height: 65px;
+    object-fit: contain;
+}
+
+.row {
+	margin-left: -33px;
+	display: flex;
+	align-items: flex-start;
+	gap: 80px;
+	font-size: 16px;
+}
+
+.card-login {
+	box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+	width: 396px;
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+	flex-shrink: 0;
+	text-align: left;
+	background-color: #fff;
+	padding: 10px 12px 15px 12px;
+	border-radius: 15px;
+}
+
+.card-login-text {
+	width: 100%;
+	max-width: 328px;
+	align-self: center;
+	color: #3b3b3b;
+}
+
+.card-login-retangulo-destino {
+	margin: 0 19px;
+	height: 48px;
+	flex-shrink: 0;
+	background-color: #fff;
+	border: 0.5px solid #000;
+	border-radius: 8px;
+}
+
+.card-login-btn-continuar {
+	width: 100%;
+	max-width: 334px;
+	display: flex;
+	justify-content: flex-end;
+	align-self: center;
+	color: #000;
+	font-style: normal;
+	letter-spacing: -0.79px;
+	text-align: right;
+	background-color: #fff;
+	border: 0.5px solid #000;
+	border-radius: 8px;
+}
+
+.card-login-title {
+	width: 100%;
+	max-width: 334px;
+	align-self: center;
+	color: #000;
+	font-size: 46px;
+	font-weight: 600;
+}
+
+.card-login-text1 {
+	margin-top: 7px;
+}
+
+.card-login-text-senha {
+	margin-top: 6px;
+}
+
+.card-login-text-esqueci-minha {
+	margin-top: 4px;
+	color: #008cff;
+}
+
+.card-login-btn-botao {
+	margin-top: 9px;
+	width: 336px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #3c096c;
+	padding: 12px 11px 15px 11px;
+	border-radius: 10px;
+	margin:9px auto 0;
+}
+
+.card-login-row {
+	margin: 34px 19px 0 20px;
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	color: #3b3b3b;
+	font-family: 'SF Pro Display';
+	letter-spacing: -0.79px;
+}
+
+.card-login-line {
+	margin-top: 6px;
+	height: 0;
+	flex-grow: 1;
+	border-top: 0.2px solid #000;
+}
+
+.card-login-text-ou {
+	margin-top: -7px; margin-bottom: -11px;
+	text-align: center;
+}
+
+.card-login-line-right {
+	margin-left: 1px;
+}
+
+.card-login-btn {
+	margin-top: 46px;
+	padding: 12px 73px 17px 73px;
+}
+
+.card-login-btn-continuar1 {
+	margin-top: 23px;
+	padding: 15px 78px 14px 78px;
+}
+
+.card-login-text-bottom {
+	margin-top: 12px;
+	color: #000;
+	text-align: center;
+}
+
+.imagem-direita {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	width: 779px;
+	flex-shrink: 0;
+	border: 0.5px solid #000;
+	border-radius: 15px;
+}
+
+.footer {
+	margin-left: 1px; margin-top: 44px;
+	display: flex;
+	align-items: flex-start;
+	gap: 126px;
+	color: #000;
+	font-size: 20px;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+.footer-text-left {
+	font-weight: 600;
+	text-align: center;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.card-login-retangulo-destino {
+		margin-inline: 0;
+	}
+	.card-login-row {
+		margin-inline: 0;
+	}
+	.card-login-btn {
+		padding-inline: var(--margin-md);
+	}
+	.card-login-btn-continuar1 {
+		padding-inline: var(--margin-md);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.card-login-btn {
+		padding-inline: var(--margin-sm);
+	}
+	.card-login-btn-continuar1 {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container body (width < 1320px) {
+	.row {
+		margin-left: 0;
+		flex-direction: column;
+		align-items: center;
+		gap: 100px;
+	}
+	.row > .card-login {
+		width: 100%;
+		max-width: 396px;
+		align-items: center;
+	}
+	.row > .card-login > * {
+		text-align: unset;
+	}
+	.row > .imagem-direita {
+		width: 100%;
+		max-width: 779px;
+	}
+}
+
+@container body (width < 956px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.footer > * {
+		text-align: center;
+	}
+}
