@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://imgur.com/a/TKynCzj" alt="WorKode Logo" width="220">
+  <img src="https://i.imgur.com/nhvKj3l.png" alt="WorKode Logo" width="220">
 </p>
 
 # WorKode 💼
@@ -44,5 +44,5 @@ Projeto desenvolvido como atividade interdisciplinar da **FATEC**, integrando co
 
 <p align="center">
   <!-- Cole aqui a URL da imagem da Home -->
-  <img src="https://imgur.com/6w85hlt" alt="Home do WorKode">
+  <img src="https://i.imgur.com/6w85hlt.png" alt="Home do WorKode">
 </p>
